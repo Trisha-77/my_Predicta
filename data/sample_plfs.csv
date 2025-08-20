@@ -1,0 +1,28 @@
+state,gender,age,year,employment_status,wage
+Maharashtra,Male,25,2022,Employed,15000
+Maharashtra,Female,30,2022,Employed,12000
+Maharashtra,Female,28,2022,Unemployed,0
+Karnataka,Male,35,2022,Employed,18000
+Karnataka,Female,22,2021,Employed,10000
+Delhi,Male,40,2022,Employed,20000
+Delhi,Female,29,2022,Unemployed,0
+Maharashtra,Female,37,2021,Unemployed,0
+Maharashtra,Female,31,2021,Unemployed,15331
+Delhi,	Female,	29,	2021,	Unemployed	,0
+Delhi,	Female	,22,	2021,	Employed,	9903
+Karnataka,	Male,	29	,2022	,Employed,	21782
+Karnataka,	Female	,24,	2021	,Employed,	14599
+Karnataka,	Male,	42	,2021	,Employed,	20833
+Maharashtra,Male,30,2021,Employed,12000
+Maharashtra,Female,35,2021,Employed,12000
+Maharashtra,Male,30,2021,Unemployed,12000
+Maharashtra,Male,32,2022,Employed,12000
+Maharashtra,Female,36,2021,Unemployed,12000
+Maharashtra,Female,36,2022,Unemployed,12000
+Karnataka,	Female	,24,	2021	,Unemployed,	14599
+Karnataka,	Male,	42	,2021	,Unemployed,	20833
+Karnataka,	Female	,24,	2022	,Unemployed,	14599
+Karnataka,	Male,	42	,2022	,Unemployed,	20833
+Delhi,Male,40,2022,Unemployed,20000
+Delhi,Male,40,2021,Employed,20000
+Delhi,Male,40,2021,Unemployed,20000
