@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container mt-4">
+
+  <!-- Hero Section -->
+  <div class="p-5 mb-4 bg-light rounded-3 shadow-sm">
+    <div class="container-fluid py-5 text-center">
+      <h1 class="display-5 fw-bold text-primary">📊 MOSPI Data Explorer</h1>
+      <p class="col-md-8 fs-5 mx-auto">
+        An interactive platform to explore <strong>PLFS (Periodic Labour Force Survey)</strong> data.
+        Filter by state, gender, employment status, and year to gain insights into the labour market.
+      </p>
+      <a href="/explore" class="btn btn-success btn-lg px-4">🚀 Start Exploring</a>
+    </div>
+  </div>
+
+  <!-- Feature Cards -->
+  <div class="row text-center mb-5">
+    <div class="col-md-4">
+      <div class="card shadow-lg h-100">
+        <div class="card-body">
+          <h4 class="card-title text-primary">🔍 Explore Data</h4>
+          <p class="card-text">Apply filters and visualize wages, employment status, and demographics in different states.</p>
+          <a href="/explore" class="btn btn-outline-primary">Go ➝</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow-lg h-100">
+        <div class="card-body">
+          <h4 class="card-title text-success">ℹ️ About Dataset</h4>
+          <p class="card-text">Learn more about MOSPI’s PLFS survey, methodology, and dataset structure.</p>
+          <a href="/about" class="btn btn-outline-success">Learn ➝</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow-lg h-100">
+        <div class="card-body">
+          <h4 class="card-title text-warning">⬇️ Download Data</h4>
+          <p class="card-text">Download filtered data in CSV or Excel format for offline use and deeper analysis.</p>
+          <a href="/explore" class="btn btn-outline-warning">Download ➝</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center mt-4">
+    <hr>
+    <p class="text-muted">© 2025 MOSPI Data Explorer | Built with Flask + Bootstrap</p>
+  </footer>
+
+</div>
+{% endblock %}
