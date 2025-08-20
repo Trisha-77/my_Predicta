@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="container mt-4">
+
+  <h2 class="text-primary mb-3">ℹ️ About PLFS Dataset</h2>
+
+  <div class="card shadow-lg p-4 mb-4">
+    <h4 class="text-success">📌 What is PLFS?</h4>
+    <p>
+      The <strong>Periodic Labour Force Survey (PLFS)</strong> is conducted by
+      the <strong>Ministry of Statistics and Programme Implementation (MOSPI)</strong>, Government of India.  
+      It collects detailed information on employment, unemployment, wages, demographics,
+      and labour force participation across states and years.
+    </p>
+  </div>
+
+  <div class="card shadow-lg p-4 mb-4">
+    <h4 class="text-warning">📊 Why is it important?</h4>
+    <ul>
+      <li>Provides reliable estimates of <strong>employment & unemployment rates</strong>.</li>
+      <li>Helps policymakers identify <strong>regional and gender disparities</strong> in wages.</li>
+      <li>Assists researchers, students, and analysts in <strong>data-driven studies</strong>.</li>
+      <li>Supports the creation of <strong>targeted government schemes</strong> for employment generation.</li>
+    </ul>
+  </div>
+
+  <div class="card shadow-lg p-4 mb-4">
+    <h4 class="text-info">🛠️ How does this project help?</h4>
+    <p>
+      The <strong>MOSPI Data Explorer</strong> prototype allows users to:
+    </p>
+    <ul>
+      <li>Filter PLFS data by <strong>state, gender, year, and employment status</strong>.</li>
+      <li>Visualize results in different chart types (bar, line, pie).</li>
+      <li>Download data in <strong>CSV or Excel</strong> format for offline analysis.</li>
+      <li>Ensure privacy by suppressing results when fewer than 5 records are matched.</li>
+    </ul>
+  </div>
+
+  <div class="text-center">
+    <a href="/" class="btn btn-outline-primary">⬅ Back to Home</a>
+    <a href="/explore" class="btn btn-success">🚀 Explore Data</a>
+  </div>
+
+</div>
+{% endblock %}
